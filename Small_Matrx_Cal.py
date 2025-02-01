@@ -75,7 +75,6 @@ def MatrixInverse(matrix):
             [d * h - e * g, b * g - a * h, a * e - b * d]
         ]
         
-        # Divide by determinant
         inverse = [[adjoint[i][j] / det for j in range(3)] for i in range(3)]
         
         print("Inverse of Matrix (3x3):")
